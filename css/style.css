@@ -116,11 +116,16 @@ button {
   }
 }
 
+.luxury_all{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .luxury_animation {
   display: flex;
   align-items: center;
   margin-top: 50px;
-  margin-left: 400px;
 }
 
 .new_horizons {
@@ -138,6 +143,9 @@ button {
 .twentyfive {
   text-align: center;
   margin-top: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .links{
  
@@ -147,7 +155,6 @@ button {
   align-items: center;
   width: 500px;
   margin-top: -60px;
-  margin-left: 460px;
   font-size: 20px;
 
 }

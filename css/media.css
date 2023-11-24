@@ -1,25 +1,85 @@
 @media screen and (max-width: 1818px) {
-	.container{
-		max-width: 1100px;
-	}
+  .container {
+    max-width: 1100px;
+  }
 }
 @media screen and (max-width: 1050px) {
-	.container{
-		max-width: 850px;
-	}
+  .container {
+    max-width: 850px;
+  }
 }
 @media screen and (max-width: 880px) {
-	.container{
-		max-width: 610px;
-	}
+  .container {
+    max-width: 610px;
+  }
 }
+
 @media screen and (max-width: 640px) {
-	.container{
-		max-width: 520px;
-	}
+  .container {
+    max-width: 520px;
+  }
+
+  .luxury_all img {
+    width: 55px;
+  }
+
+  .first_u {
+    margin-top: 9px;
+  }
+
+  @-webkit-keyframes first_u {
+    0% {
+      left: 0px;
+      top: 0px;
+    }
+    50% {
+      left: 100px;
+      top: 0px;
+    }
+    100% {
+      left: 0px;
+      top: 0px;
+    }
+  }
+
+  .second_u {
+    margin-top: 9px;
+  }
+
+  @-webkit-keyframes second_u {
+    0% {
+      right: 0px;
+      top: 0px;
+    }
+    50% {
+      right: 100px;
+      top: 0px;
+    }
+    100% {
+      right: 0px;
+      top: 0px;
+    }
+  }
+
+  .new_horizons {
+    font-size: 14px;
+  }
+
+  .twentyfive img {
+    width: 300px;
+  }
+  .links {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    width: 200px;
+    margin-top: -60px;
+    font-size: 10px;
+  }
 }
 @media screen and (max-width: 550px) {
-	.container{
-		max-width: 100%;
-	}
+  .container {
+    max-width: 100%;
+  }
 }
