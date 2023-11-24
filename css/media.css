@@ -1,12 +1,18 @@
 @media screen and (max-width: 1818px) {
-  .container {
-    max-width: 1100px;
-  }
+  
 }
-@media screen and (max-width: 1050px) {
-  .container {
-    max-width: 850px;
-  }
+@media screen and (max-width: 1512px) {
+  .event_card:nth-child(2) {
+    border-right: none;
+}
+
+.event_card:nth-child(3) {
+  border-bottom: none;
+}
+
+.event_card:nth-child(4) {
+  border-right: none;
+}
 }
 @media screen and (max-width: 880px) {
   .container {
@@ -81,5 +87,78 @@
 @media screen and (max-width: 550px) {
   .container {
     max-width: 100%;
+  }
+}
+
+
+/*aelina8*/
+@media(max-width:1816px){
+  .magazine {
+    width: 900px;
+  }
+   }
+   @media (max-width: 1450px){
+  .up_to_off .info{
+    width: 1025px;
+  }
+}
+@media (max-width: 1300px){
+  .magazine{
+    width: 700px;
+  }
+  .marketplace{
+    width: 700px;
+  }
+}
+@media (max-width: 944px){
+  .magazine{
+    width: 600px;
+  }
+  .marketplace{
+    width: 700px;
+  }
+}
+   @media (max-width: 1400px){
+  .up_to_off .info{
+    width: 1000px;
+
+  }
+}
+@media (max-width: 1000px){
+  .up_to_off .info{
+    width: 880px;
+  }
+  .marketplace{
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 865px){
+  .up_to_off .info{
+    width: 750px;
+  }
+}
+@media (max-width: 480px){
+  .up_to_off .info{
+    width: 700px;
+  }
+  .magazine{
+    width: 700px; ;
+  }
+}
+@media (max-width: 360px){
+  .up_to_off .info{
+    width: 650px;
+  }
+}
+@media (max-width: 1233px){
+  .magazine{
+    margin-left: 30px;
+    width: 600px;
+  }
+  .marketplace{
+    margin-left: 30px;
+    width: 700px;
+    margin-bottom: 20px;
+  
   }
 }
